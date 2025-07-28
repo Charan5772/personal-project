@@ -1,15 +1,15 @@
 <h1><p align = "center"> Medical Insurance Cost Prediction</p></h1>
 
 ## PROJECT OVERVIEW
-Health insurance costs have risen dramatically over the past decade in response to the rising cost of health care services and are determined by a multitude of factors. Let's look at the cost of healthcare for a sample of the population given age, sex, bmi, number of children, smoking habits, and region.
+Over the past decade, health insurance expenses have surged, largely due to the increasing costs of medical care and several influencing factors. This project aims to analyze healthcare costs for a sample population based on attributes like age, gender, BMI, number of children, smoking status, and region.
 
-The purpose of this project is to determine the contributing factors and predict health insurance cost by performing exploratory data analysis and predictive modeling on the Health Insurance dataset. This project makes use of Numpy, Pandas, Sci-kit learn, and Data Visualization libraries.
+The goal is to identify the main drivers and predict health insurance expenses through exploratory data analysis and predictive modeling using the Health Insurance dataset. The project leverages Numpy, Pandas, Scikit-learn, and various data visualization tools. 
 
 <b>Overview:</b> <br>
-- Seek insight from the dataset with Exploratory Data Analysis <br>
-- Performed Data Processing, Data Engineering and Feature Transformation to prepare data before modeling <br>
-- Built a model to predict Insurance Cost based on the features <br>
-- Evaluated the model using various Performance Metrics like RMSE, R2, Testing Accuracy, Training Accuracy and MAE <br>
+- Explored the dataset for patterns with exploratory data analysis <br>
+- Executed data processing, feature engineering, and transformation to prep the data for modeling <br>
+- Developed models to estimate insurance costs from the selected features <br>
+- Assessed model performance using metrics such as RMSE, R2, Test Accuracy, Train Accuracy, and MAE <br>
 
 ## DATA DESCRIPTION
 1. age: age of primary beneficiary
@@ -69,6 +69,5 @@ The insights drawn by performing `Exploratory Data Analysis` (EDA) are:
 | RMSE | 6209.88 | 6067.50 | 4841.88 | 6238.13 |
  
 ## CONCLUSION
-Based on the predictive modeling, Linear Regression algorithm has the best score compared to the others, with MAE Score 4305.20, RMSE Score 6209.88, & R2 Score 0.77. <br>
-
-Therefore, Linear Regression algorithm is the best fitted model based on the training and testing accuracy.
+Among the models tested, the Linear Regression algorithm yielded the best results, with an MAE of 4305.20, RMSE of 6209.88, and R2 of 0.77. <br>
+Thus, the Linear Regression model proves to be the most suitable based on both training and testing accuracies.
